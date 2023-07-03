@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>aria2 + rclone + Onedrive离线下载（未完待续）</title>
+      <link href="/2023/07/03/aria2/"/>
+      <url>/2023/07/03/aria2/</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>本篇仅讲解Linux系统中的配置，服务器配置推荐为大容量VPS，便于下载大型文件。</p></blockquote><h1 id="aria2-reclone-Onedrive-自动上传挂载Onedrive"><a href="#aria2-reclone-Onedrive-自动上传挂载Onedrive" class="headerlink" title="aria2 + reclone + Onedrive 自动上传挂载Onedrive"></a>aria2 + reclone + Onedrive 自动上传挂载Onedrive</h1><h2 id="aria2"><a href="#aria2" class="headerlink" title="aria2"></a>aria2</h2><p>aria2 Aria2是一款功能强大的开源下载管理工具，它支持多种协议和下载方式，并具有高度可配置性。</p><h3 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h3><h4 id="安装aria2"><a href="#安装aria2" class="headerlink" title="安装aria2"></a>安装aria2</h4><p>首先SSH连接VPS服务器或其他途径连接服务器<br><img src="https://kjimg10.360buyimg.com/ott/jfs/t20250702/191003/14/29080/117401/64a2d5d1F917f98f4/6e514f9c4c321111.png" alt="SSH连接"><br>这里使用aria2一键增强脚本</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">wget -N git.io/aria2.sh &amp;&amp; chmod +x aria2.sh &amp;&amp; ./aria2.sh #采用P3TERX ZONE脚本</span><br></pre></td></tr></table></figure><p>作者GitHub地址 <a href="https://github.com/P3TERX/aria2.sh">https://github.com/P3TERX/aria2.sh</a><br>出现脚本操作菜单输入 1 开始安装。<br><img src="https://kjimg10.360buyimg.com/ott/jfs/t20250702/202005/4/38919/101257/64a2d6e0F03f53a32/0c3020a0f7d9ff5f.png" alt="安装aria2"><br>安装成功后会出现AriaNG链接<br><img src="https://kjimg10.360buyimg.com/ott/jfs/t20250702/140497/2/36287/91906/64a2d730F42049891/4206cdbcb0951a8f.png" alt="AriaNG"><br>在浏览器中输入AriaNG链接，进入AriaNG控制面板<br>当浏览器中出现Aria2 状态为已链接为配置成功<br><img src="https://kjimg10.360buyimg.com/ott/jfs/t20250702/96179/8/40160/168023/64a2d73dF4bc6e507/0ef1d8cf1c88a1ea.png" alt="AriaNG链接"></p><h2 id="rclone-配置"><a href="#rclone-配置" class="headerlink" title="rclone 配置"></a>rclone 配置</h2><p>rclone配置需要搭配自己的电脑使用</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>图种</title>
       <link href="/2023/07/02/%E5%9B%BE%E7%A7%8D/"/>
       <url>/2023/07/02/%E5%9B%BE%E7%A7%8D/</url>
